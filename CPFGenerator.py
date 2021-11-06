@@ -7,7 +7,7 @@ import random
 
 
 def generate_cpf():
-    archive = open('cpf_list.txt', 'a+')
+    archive = open('cpf_list.txt', 'a+') ## Creating a file to write down all CPFs. 
     count = 10
     digit_1 = 0
     digit_2 = 0
